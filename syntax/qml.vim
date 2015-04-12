@@ -45,8 +45,7 @@ syn keyword qmlNull              null undefined
 syn keyword qmlIdentifier        arguments this var
 syn keyword qmlLabel             case default
 syn keyword qmlException         try catch finally throw
-syn keyword qmlMessage           alert confirm prompt status
-syn keyword qmlGlobal            self
+syn keyword qmlMessage           alert
 syn keyword qmlDeclaration       property signal
 syn keyword qmlReserved          abstract boolean byte char class const debugger enum export extends final float goto implements import interface long native package pragma private protected public readonly short static super synchronized throws transient volatile
 
