@@ -46,6 +46,7 @@ syn keyword qmlIdentifier        arguments this var
 syn keyword qmlLabel             case default
 syn keyword qmlException         try catch finally throw
 syn keyword qmlMessage           alert
+syn keyword qmlSingleton         Qt console Component Layout Text
 syn keyword qmlDeclaration       property signal
 syn keyword qmlReserved          abstract boolean byte char class const debugger enum export extends final float goto implements import interface long native package pragma private protected public readonly short static super synchronized throws transient volatile
 
@@ -95,6 +96,7 @@ if version >= 508 || !exists("did_qml_syn_inits")
   HiLink qmlOperator          Operator
   HiLink qmlJsType            Type
   HiLink qmlType              Type
+  HiLink qmlSingleton         Type
   HiLink qmlObjectLiteralType Type
   HiLink qmlStatement         Statement
   HiLink qmlFunction          Function
