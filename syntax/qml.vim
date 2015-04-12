@@ -1,10 +1,4 @@
 " Vim syntax file
-" Language:     QML
-" Maintainer:   Warwick Allison <warwick.allison@nokia.com>
-" Updaters:
-" URL:
-" Changes:
-" Last Change:  2009 Apr 30
 
 " Based on javascript syntax (as is QML)
 
