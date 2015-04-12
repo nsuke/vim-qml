@@ -37,7 +37,7 @@ syn keyword qmlConditional       if else switch
 syn keyword qmlRepeat            while for do in
 syn keyword qmlBranch            break continue
 syn keyword qmlOperator          new delete instanceof typeof
-syn keyword qmlJsType            Array Boolean Date Function Number Object String RegExp
+syn keyword qmlJsType            Array Boolean Date Function Number Object String RegExp ArrayBuffer Int8Array Uint8Array Uint8ClampedArray Int16Array Uint16Array Int32Array Uint32Array Float32Array Float64Array
 syn keyword qmlType              action alias bool color date double enumeration font int list point real rect size string time url variant vector3d
 syn keyword qmlStatement         return with
 syn keyword qmlBoolean           true false
