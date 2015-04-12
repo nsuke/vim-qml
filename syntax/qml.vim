@@ -52,6 +52,7 @@ syn keyword qmlError			debugger
 syn match   qmlObjectLiteralType	"[A-Za-z][_A-Za-z0-9]*\s*\({\)\@="
 syn match   qmlNonBindingColon		"?[^;]*:"
 syn match   qmlBindingProperty		"\<[A-Za-z][_A-Za-z.0-9]*\s*:"
+syn keyword qmlOn			on
 syn match   qmlChanged			"Changed"
 syn keyword qmlPragma			pragma
 syn keyword qmlImport			import
@@ -130,6 +131,7 @@ if version >= 508 || !exists("did_qml_syn_inits")
   HiLink javaScriptStrictS		javaScriptStrict
   HiLink javaScriptStrictD		javaScriptStrict
   HiLink javaScriptTypedArray		Type
+  HiLink qmlOn				Keyword
   HiLink qmlChanged			SpecialChar
   HiLink qmlError			Error
   HiLink qmlObjectLiteralType		Type
