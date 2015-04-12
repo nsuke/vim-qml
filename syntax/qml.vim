@@ -44,8 +44,8 @@ syn keyword javaScriptMessage		alert
 syn keyword javaScriptGlobal		parent
 syn keyword javaScriptReserved		abstract boolean byte char class enum export extends final float goto implements interface long native package private protected public short static super synchronized throws transient volatile
 
-syn match javaScriptStrictS		"'use strict';"
-syn match javaScriptStrictD		"\"use strict\";"
+syn match javaScriptStrictS		"^\s*'use strict';$"
+syn match javaScriptStrictD		"^\s*\"use strict\";$"
 syn keyword javaScriptTypedArray	ArrayBuffer Int8Array Uint8Array Uint8ClampedArray Int16Array Uint16Array Int32Array Uint32Array Float32Array Float64Array
 
 syn keyword qmlError			debugger
