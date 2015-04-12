@@ -16,7 +16,6 @@ if version < 600 && exists("qml_fold")
   unlet qml_fold
 endif
 
-syn case ignore
 
 
 syn keyword qmlCommentTodo       TODO FIXME XXX TBD contained
